@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PacketListener
+comment0.text=\nfinal\ class\ PacketListener\ implements\ SerialPortPacketListener\n{\n@Override\npublic\ int\ getListeningEvents()\ {\ return\ SerialPort.LISTENING_EVENT_DATA_RECEIVED;\ }\n\n@Override\npublic\ int\ getPacketSize()\ {\ return\ 14;\ }\n\n@Override\npublic\ void\ serialEvent(SerialPortEvent\ event)\n{\nbyte[]\ newData\ \=\ event.getReceivedData();\nSystem.out.println("Received\ data\ of\ size\:\ "\ +\ newData.length);\nfor\ (int\ i\ \=\ 0;\ i\ <\ newData.length;\ ++i)\nSystem.out.print((char)newData[i]);\nSystem.out.println("\\n");\n}\n}\n
+comment1.params=
+comment1.target=int\ getListeningEvents()
+comment2.params=
+comment2.target=int\ getPacketSize()
+comment3.params=event
+comment3.target=void\ serialEvent(com.fazecast.jSerialComm.SerialPortEvent)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
