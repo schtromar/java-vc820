@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.target=Segment
+comment0.text=\n\ Write\ a\ description\ of\ class\ Segment\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Segment()
+comment10.params=in
+comment10.target=void\ setG(boolean)
+comment11.params=
+comment11.target=byte\ toByte()
+comment12.params=
+comment12.target=int\ convert()
+comment12.text=\n\ \ \ \ public\ int\ convert(){\n\ \ \ \ \ \ \ \ \ \ \ \ //System.out.println(toByte());\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01111110){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 0;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b00110000){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 1;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01101101){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 2;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01111001){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 3;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b00110011){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 4;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01011011){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 5;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01011111){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 6;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01110000){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 7;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01111111){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 8;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ if(toByte()\=\=0b01111011){\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ 9;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ else{\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ -1;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ }\ \ \ \ \n\ \ \ \ \n
+comment2.params=
+comment2.target=boolean\ getDot()
+comment3.params=in
+comment3.target=void\ setDot(boolean)
+comment4.params=in
+comment4.target=void\ setA(boolean)
+comment5.params=in
+comment5.target=void\ setB(boolean)
+comment6.params=in
+comment6.target=void\ setC(boolean)
+comment7.params=in
+comment7.target=void\ setD(boolean)
+comment8.params=in
+comment8.target=void\ setE(boolean)
+comment9.params=in
+comment9.target=void\ setF(boolean)
+numComments=13
